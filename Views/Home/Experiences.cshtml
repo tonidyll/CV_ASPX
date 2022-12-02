@@ -1,0 +1,20 @@
+﻿<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var experience in ViewBag.VExperience)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <img src="@experience.ImageURL" class="card-img-top" alt="imagen proyecto" />
+                    <div class="card-body">
+                        <h5 class="card-title">@experience.Title</h5>
+                        <p class="card-text">@experience.Description</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="@experience.Link" target="_blank"
+                       rel="noopener noreferrer">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
