@@ -1,0 +1,21 @@
+﻿<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var studyCoursed in ViewBag.VStudyCourse)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <img src="@studyCoursed.ImageURL" class="card-img-top" alt="imagen proyecto" />
+                    <div class="card-body">
+                        <h5 class="card-title">@studyCoursed.Title</h5>
+                        <p class="card-text">@studyCoursed.InitDate - @studyCoursed.EndDate </p>
+                    </div>
+
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="@studyCoursed.Link" target="_blank"
+                       rel="noopener noreferrer">Visitar Centro</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
