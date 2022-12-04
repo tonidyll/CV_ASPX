@@ -10,8 +10,4 @@
     <Folder Include="wwwroot\resources\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Octokit" Version="4.0.3" />
-  </ItemGroup>
-
 </Project>

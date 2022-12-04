@@ -40,11 +40,6 @@ namespace P1_ASP.Controllers
             return View();
         }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 306dfc5b066285c2be784d7c84164c30312d3a3e
         public IActionResult Projects()
         {
             ViewBag.VProject = new RepositoryOfProjects().GetProjects();
