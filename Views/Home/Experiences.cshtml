@@ -1,20 +1,20 @@
-﻿<div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+﻿<link rel="stylesheet" href="~/css/cards.css" asp-append-version="true" />
+<div class="container mx-auto mt-4">
+    <div class="row">
         @foreach (var experience in ViewBag.VExperience)
         {
-            <div class="col">
-                <div class="card h-100">
-                    <img src="@experience.ImageURL" class="card-img-top" alt="imagen proyecto" />
-                    <div class="card-body">
-                        <h5 class="card-title">@experience.Title</h5>
-                        <p class="card-text">@experience.Description</p>
-                    </div>
-                    <div class="card-footer">
-                        <a class="btn btn-primary" href="@experience.Link" target="_blank"
-                       rel="noopener noreferrer">Visitar</a>
-                    </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 20em; height: 30em;">
+                   <img src="@experience.ImageURL" class="card-img-top" alt="Experience image" />
+                <div class="card-body">
+                    <h5 class="card-title">@experience.Job</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">@experience.EnterpriseName</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">@experience.Dates</h6>
+                        <p class="card-text" style="height: 6em;">@experience.Description</p>
+                    <a href="@experience.Link" class="btn mr-2"><i class="fas fa-link"></i>Visitar Sitio Web</a>
                 </div>
             </div>
+        </div>
         }
     </div>
 </div>

@@ -1,21 +1,18 @@
-﻿<div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+﻿<link rel="stylesheet" href="~/css/cards.css" asp-append-version="true" />
+<div class="container mx-auto mt-4">
+    <div class="row">
         @foreach (var studyCoursed in ViewBag.VStudyCourse)
         {
-            <div class="col">
-                <div class="card h-100">
-                    <img src="@studyCoursed.ImageURL" class="card-img-top" alt="imagen proyecto" />
-                    <div class="card-body">
+                <div class="col-md-4">
+                    <div class="card" style="width: 20em; height: 30em;">
+                    <img src="@studyCoursed.ImageURL" class="card-img-top" alt="Experience image" />
+                        <div class="card-body">
                         <h5 class="card-title">@studyCoursed.Title</h5>
-                        <p class="card-text">@studyCoursed.InitDate - @studyCoursed.EndDate </p>
-                    </div>
-
-                    <div class="card-footer">
-                        <a class="btn btn-primary" href="@studyCoursed.Link" target="_blank"
-                       rel="noopener noreferrer">Visitar Centro</a>
+                        <p class="card-text" style="height: 6em;">@studyCoursed.Dates </p>
+                        <a href="@studyCoursed.Link" class="btn"><i class="fab fa-link"></i>Visitar Sitio Web</a>
+                        </div>
                     </div>
                 </div>
-            </div>
         }
     </div>
 </div>

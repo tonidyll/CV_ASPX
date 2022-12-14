@@ -9,14 +9,14 @@ public class RepositoryOStudiedCourses
             new ClassStudiedCourses {
                 Title = "Grado Medio - Sistemas Microinformáticos y redes",
                 Link = "https://monlau.com",
-                InitDate="Setiembre, 2018",
-                EndDate="Junio, 2021",
+                Dates="Set. 2018 - jun.2021",
                 Location="Barcelona",
                 ImageURL = "/images/smx.png"
             },
             new ClassStudiedCourses {
                 Title = "Grado Superior - Desarrolo de Aplicaciones Web",
                 Link = "https://monlau.com",
+                 Dates="Set. 2022 - Actualmente",
                 InitDate="Setiembre, 2020",
                 EndDate="*Current*",
                 Location="Barcelona",

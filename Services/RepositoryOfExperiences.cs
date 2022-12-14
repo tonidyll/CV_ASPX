@@ -6,37 +6,21 @@ public class RepositoryOfExperiences
     {
         return new List<ClassExperiences>() {
             new ClassExperiences {
-                Title = "Flowers",
-                Description = "Beauty flowers",
-                Link = "https://amazon.com",
-                ImageURL = "/images/flower.png"
+                Job = "Technical Support Help Desk",
+                EnterpriseName = "Sosmatic",
+                Dates="nov. 2020 - nov 2021 · 1 Año 1 Mes",
+                Link = "https://www.sosmatic.es/",
+                Description="Asistencia vía telefonica a empresas y usuarios, resolucion de incidencias L1 y L2",
+                ImageURL = "/images/sosmatic.jfif"
             },
             new ClassExperiences {
-                Title = "Java Script",
-                Description = "Animación realizado en JS",
-                Link = "https://Monlau.com",
-                ImageURL = "/images/js.png"
-            }, new ClassExperiences {
-                Title = "ASP.net",
-                Description = "WEB realizado en ASP.NET Core",
-                Link = "https://amazon.com",
-                ImageURL = "/images/asp.jfif"
-            }, new ClassExperiences {
-                Title = "Java",
-                Description = "Java Projects",
-                Link = "https://amazon.com",
-                ImageURL = "/images/java.png"
-            }, new ClassExperiences {
-                Title = "ASP.net",
-                Description = "Desc",
-                Link = "https://amazon.com",
-                ImageURL = "/images/flower.png"
-            }, new ClassExperiences {
-                Title = "React",
-                Description = "WEB realizado en ASP.NET Core",
-                Link = "https://amazon.com",
-                ImageURL = "/images/react.png"
-            },
+                Job = "Web Developer",
+                EnterpriseName = "NTTData",
+                Dates="may. 2022 - Actualmente",
+                Link = "https://es.nttdata.com/",
+                Description= "Testing de aplicaciones, documentación técnica y desarrollo web",
+                ImageURL = "/images/nttdata.jpg"
+            }
         };
     }
   }
