@@ -16,9 +16,7 @@ public class RepositoryOStudiedCourses
             new ClassStudiedCourses {
                 Title = "Grado Superior - Desarrolo de Aplicaciones Web",
                 Link = "https://monlau.com",
-                 Dates="Set. 2022 - Actualmente",
-                InitDate="Setiembre, 2020",
-                EndDate="*Current*",
+                Dates="Set. 2022 - Actualmente",
                 Location="Barcelona",
                 ImageURL = "/images/react.png"
             },
