@@ -1,4 +1,8 @@
 ﻿<link rel="stylesheet/scss" href="~/css/contact.scss" asp-append-version="true" />
+@{
+    ViewData["Title"] = "Contact";
+}
+<h1>@ViewData["Title"]</h1>
  <form action="mailto:tonidyll@gmail.com" method="post" enctype="text/plain">
      Name:<br>
     <input type="text" name="name"><br>

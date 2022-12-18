@@ -33,7 +33,7 @@ public class RepositoryOfProjects
                 ImageURL = "/images/asp.jfif"
             }, new ClassProjects {
                 Title = "React",
-                Description = "WEB realizado con framework React",
+                Description = "WEB realized with React framework",
                 Link = "https://es.reactjs.org/",
                 ImageURL = "/images/react.png"
             },

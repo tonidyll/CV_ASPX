@@ -1,4 +1,8 @@
 ﻿<link rel="stylesheet" href="~/css/cards.css" asp-append-version="true" />
+@{
+    ViewData["Title"] = "Studieď Courses";
+}
+<h1>@ViewData["Title"]</h1>
 <div class="container mx-auto mt-4">
     <div class="row">
         @foreach (var studyCoursed in ViewBag.VStudyCourse)

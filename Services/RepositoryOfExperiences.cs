@@ -8,17 +8,17 @@ public class RepositoryOfExperiences
             new ClassExperiences {
                 Job = "Technical Support Help Desk",
                 EnterpriseName = "Sosmatic",
-                Dates="nov. 2020 - nov 2021 · 1 Año 1 Mes",
+                Dates="nov. 2020 - nov. 2021 · 1 Year 1 Month",
                 Link = "https://www.sosmatic.es/",
-                Description="Asistencia vía telefonica a empresas y usuarios, resolucion de incidencias L1 y L2",
+                Description=" Helpdesk Support L1 and L2 from particular costumers to enterprises",
                 ImageURL = "/images/sosmatic.jfif"
             },
             new ClassExperiences {
                 Job = "Web Developer",
                 EnterpriseName = "NTTData",
-                Dates="may. 2022 - Actualmente",
+                Dates="may. 2022 - Current",
                 Link = "https://es.nttdata.com/",
-                Description= "Testing de aplicaciones, documentación técnica y desarrollo web",
+                Description= "App Testing, Technical documentation, Web development. Creating a project from 0 to production",
                 ImageURL = "/images/nttdata.jpg"
             }
         };

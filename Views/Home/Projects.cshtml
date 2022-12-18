@@ -1,4 +1,8 @@
 ﻿<link rel="stylesheet" href="~/css/cards.css" asp-append-version="true" />
+@{
+    ViewData["Title"] = "Projects";
+}
+<h1>@ViewData["Title"]</h1>
 <div class="container mx-auto mt-4">
     <div class="row">
         @foreach (var project in ViewBag.VProject)
@@ -9,7 +13,7 @@
                     <div class="card-body">
                         <h5 class="card-title">@project.Title</h5>
                         <p class="card-text" style="height: 6em;">@project.Description</p>
-                        <a href="@project.Link" class="btn"><i class="fab fa-github"></i>Github</a>
+                        <a href="@project.Link" class="btn"><i class="fa fa-github"></i>Github</a>
                     </div>
                 </div>
             </div>

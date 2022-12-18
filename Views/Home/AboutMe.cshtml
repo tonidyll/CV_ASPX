@@ -1,12 +1,18 @@
-﻿@{
+﻿<link rel="stylesheet" href="~/css/grid.css" asp-append-version="true" />
+@{
     ViewData["Title"] = "About Me";
 }
 <h1>@ViewData["Title"]</h1>
-
-<strong><h1>Antoni Davia Yll</h1></strong>
-<hr />
-<p>25/05/2003</p>
-<p>tonidyll@gmail.com</p>
-<hr />
-<strong><h3>Summary</h3></strong>
-<p>An exceptional organized and friendly person who loves his work, with 2 years of experience in IT industry </p>
+<div style="margin-top: 5%">
+    <div class="row justify-content-md-center text-center parent">
+        <div class="col col-3 bg-dark habilidades" style="border-radius: 15px; box-shadow: 0 5px 5px 0 gray">
+            <i class="bi-hdd-fill"></i>
+            <h3>Information</h3>
+             <ul>
+                <li>19 Years Old, born in 2003</li>
+                <li>Ambitious, Prefectionist and Uncomformist</li>
+                <li>Eager to learn and work</li>
+            </ul>
+        </div>
+    </div>
+</div>

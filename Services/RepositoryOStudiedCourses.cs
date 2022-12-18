@@ -7,16 +7,16 @@ public class RepositoryOStudiedCourses
     {
             return new List<ClassStudiedCourses>() {
             new ClassStudiedCourses {
-                Title = "Grado Medio - Sistemas Microinformáticos y redes",
+                Title = "Medium Grade - Microcomputer Systems (SMX)",
                 Link = "https://monlau.com",
-                Dates="Set. 2018 - jun.2021",
+                Dates="Sept. 2018 - jun.2021",
                 Location="Barcelona",
                 ImageURL = "/images/smx.png"
             },
             new ClassStudiedCourses {
-                Title = "Grado Superior - Desarrolo de Aplicaciones Web",
+                Title = "Superior Grade - Web App Development (DAW)",
                 Link = "https://monlau.com",
-                Dates="Set. 2022 - Actualmente",
+                Dates="Sept. 2022 - Current",
                 Location="Barcelona",
                 ImageURL = "/images/react.png"
             },
