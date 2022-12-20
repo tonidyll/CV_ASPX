@@ -8,7 +8,7 @@ namespace P1_ASP.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        private readonly ContextDB contextDB;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -42,7 +42,8 @@ namespace P1_ASP.Controllers
 
         public IActionResult Projects()
         {
-            ViewBag.VProject = new RepositoryOfProjects().GetProjects();
+            ViewBag.VProject = contextDB.ClassProjects.ToList();
+            //   ViewBag.VProject = new RepositoryOfProjects().GetProjects();
             return View();
         }
         public IActionResult SummaryCV()
