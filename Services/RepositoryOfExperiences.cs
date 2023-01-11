@@ -10,7 +10,7 @@ public class RepositoryOfExperiences
                 EnterpriseName = "Sosmatic",
                 Dates="nov. 2020 - nov. 2021 · 1 Year 1 Month",
                 Link = "https://www.sosmatic.es/",
-                Description=" Helpdesk Support L1 and L2 from particular costumers to enterprises",
+                Description="Helpdesk Support L1 and L2 from particular costumers to enterprises",
                 ImageURL = "/images/sosmatic.jfif"
             },
             new ClassExperiences {

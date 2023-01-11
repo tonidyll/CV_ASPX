@@ -23,12 +23,14 @@ namespace P1_ASP.Controllers
 
         public IActionResult StudiedCourses()
         {
-            ViewBag.VStudyCourse = new RepositoryOStudiedCourses().GetStudiesCourses();
+            ViewBag.VStudyCourse = contextDB.ClassStudiedCourses.ToList();
+            //ViewBag.VStudyCourse = new RepositoryOStudiedCourses().GetStudiesCourses();
             return View();
         }
         public IActionResult Experiences()
         {
-            ViewBag.VExperience = new RepositoryOfExperiences().GetExperiences();
+            ViewBag.VExperiences = contextDB.ClassExperiences.ToList();
+           // ViewBag.VExperience = new RepositoryOfExperiences().GetExperiences();
             return View();
         }
         public IActionResult AboutMe()
